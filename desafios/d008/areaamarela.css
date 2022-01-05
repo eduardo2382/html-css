@@ -1,0 +1,21 @@
+body {
+    background-color: #ffffe3;
+}
+
+h1 {
+   color: #c3884b; 
+   font-family: Arial;
+   font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+    font-family: Arial;
+    color: #c3884b;
+}
+
+a {
+    font-weight: bold;
+    font-family: Arial;
+    color: blue;
+}
