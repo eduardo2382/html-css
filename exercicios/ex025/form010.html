@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="" method="get">
+        <p>
+            <label for="iano">Ano: </label>
+            <input type="number" name="ano" id="iano" min="1990" max="2020" oninput="iidade.innerHTML = 2022 - Number(iano.value)">
+        </p>
+        <p>
+            <label for="iidade">Sua idade é: </label>
+            <output id="iidade"></output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
